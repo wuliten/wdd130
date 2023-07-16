@@ -81,6 +81,9 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
+.history img {
+    width: 300px;
+}
 .index img {
     width: 400px;
 }
