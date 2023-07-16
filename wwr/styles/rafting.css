@@ -75,6 +75,16 @@ p {
 .adventure figure {
     grid-row: 2;
 }
+.trips {
+    display: grid;
+    gap: 20px;
+    /* grid-template-columns: 1fr 3fr; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+}
+.trips img {
+    width: 480px;
+    height: 240px;
+}
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
@@ -168,4 +178,15 @@ footer {
 button {
     background-color: skyblue;
     width: 100px;
+}
+th, td {
+    padding: 5px;
+}
+table, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+thead, tfoot {
+    background-color: #333;
+    color: #fff;
 }
