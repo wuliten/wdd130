@@ -75,6 +75,15 @@ p {
 .adventure figure {
     grid-row: 2;
 }
+.index {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.index img {
+    width: 400px;
+}
 .trips {
     display: grid;
     gap: 20px;
